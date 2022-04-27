@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background-image:url('reconhecimento4.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;	
+}
+
+.loginesenha{
+    border: 1px solid black;
+    background:white;
+	color :black;
+	font-family: arial;
+	width: 30vw;
+    line-height: 90px;
+	height: 75vh;
+    margin: 7% 0 0 65%;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 25px;
+	box-shadow:5px 5px 5px 5px #696969;
+	opacity:90%;
+}
+
+h1{
+    margin-top:-67px;
+	margin-left:70px;
+}
+
+.sett{
+	width:100px;
+	margin-bottom:-50px;
+	margin-left:-140px;
+}	
+
+.login, .senha {
+	border: none;
+	border-bottom: 2px solid #696969;
+	height:2rem;
+	font-size: 1.0625rem;
+	padding-left:0.875rem; 
+}
+
+.login:focus,
+.senha:focus{
+	outline: none;	
+}
+
+.login:hover,
+.senha:hover{
+	border-color: #FE9A2E;
+}
+
+.login:focus, .login:valid,
+.senha:focus, .senha:valid{
+	transform: scale(1.03);
+	border-color: #FE9A2E;
+	width: 50%;
+}
+
+.divbutton{
+    margin-top: 50px;
+}
+
+.divlogin{
+    margin-top: 50px;
+}
+
+.botao {
+	border: 2px solid #FE9A2E;
+	width: 50%;
+	padding: 3% 0;
+	background-color: inherit;
+	cursor: pointer;
+	color: #FE9A2E;
+	font-weight: bold;
+	font-size: 1.3rem;
+	border-radius: 7px;
+}
+
+.botao:hover{
+	background-color: #FE9A2E;
+	transition: ease-in-out .4s;
+	color: #fff;
+}
+
